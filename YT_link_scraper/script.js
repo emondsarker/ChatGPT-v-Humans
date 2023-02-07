@@ -2,7 +2,7 @@
 youtube = require("scrape-youtube")
 // const { youtube } = require('scrape-youtube');
 
-youtube.search('School of life', {type: 'video'}).then((results) => {
+youtube.search('The Economist', {type: 'video'}).then((results) => {
     // Unless you specify a custom type you will only receive 'video' results
     // console.log(results.videos);
     for(i=0;i<results.videos.length;i++){
